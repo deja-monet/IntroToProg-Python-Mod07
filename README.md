@@ -12,9 +12,9 @@ Foundations of Python
 
 ### Introduction
 
-In this assignment, I will review Python exceptions and .dat files.
+In this assignment, I will review Python exceptions or error handling and pickling. I will also review defining and calling custom errors as functions.
 
-### Completing the Assignment
+### Completing the Assignment: Researching Exception Handling
 
 This assignment directed students to learn about exception handling and Pickling in Python. My first step was to research what exception handling was, and choose an appropriate script that demonstrated this issue.
 
