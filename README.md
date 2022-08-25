@@ -8,6 +8,8 @@ Foundations of Python
 
 24 August 2022
 
+[GitHub](https://github.com/deja-monet/IntroToProg-Python-Mod07)
+
 ## Assignment 07: Files & Exceptions
 
 ### Introduction
