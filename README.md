@@ -81,3 +81,29 @@ In order to demonstrate pickling in my script, I first imported the pickle modul
 *Figure 10. The processed number is written to a .dat file using the pickle module.*
 
 With the script demonstrating both error handling and pickling, the script was completed, and it was time to begin testing the script in an IDE and Anaconda Prompt.
+
+### Completing the Assignment: Testing the Script
+
+I wrote this script in Spyder, and thus decided to use Spyder as my IDE for testing the script. The script prompts the user for a first number, a mathematical operation, and then a second number. I began by entering an acceptable input: 1+2. The script correctly returned the answer as 3.0. I then entered “a” as my second number, and the script correctly returned a ValueError and NameError exception (**Figure 11**).
+
+![image](https://user-images.githubusercontent.com/111031988/186569313-51115b74-ddf7-4b70-bedb-1ac6913e1340.png)
+*Figure 11. Testing the script in Spyder.*
+
+I then needed to test the script in Anaconda Prompt. In Anaconda Prompt, I set the working directory to the correct location, then called the script using python. I decided to enter 1 as the first number, operation, and second number, and the script correctly returned one of my custom errors, as there was no operation entered. I then entered 10/0, and the script correctly returned the **ZeroDivisionError** and **NameError** (**Figure 12**).
+
+![image](https://user-images.githubusercontent.com/111031988/186569379-848ace82-240c-4614-baf0-e92e5cc88721.png)
+*Figure 12. Testing the script in Anaconda Prompt.*
+
+Then, in Anaconda Prompt, I entered 3+2, and the script correctly returned 5.0. I then checked to see if a .dat file had been written to the working directory, and found that this had also been successful (**Figure 13**).
+
+![image](https://user-images.githubusercontent.com/111031988/186569440-3ea88db7-ad15-4450-ac5f-696db2cb62be.png)
+*Figure 13. The ProcessedNumber.dat file in the working directory.*
+
+With the script able to demonstrate error handling, pickling, and tested in an IDE and Anaconda Prompt, the assignment was complete.
+
+### Summary
+
+In this assignment, I reviewed errors and error handling and writing serialized data using the pickle module. I also reviewed printing custom messages when built-in Python Exceptions are triggered in a script.
+
+
+
