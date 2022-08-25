@@ -94,10 +94,10 @@ I then needed to test the script in Anaconda Prompt. In Anaconda Prompt, I set t
 ![image](https://user-images.githubusercontent.com/111031988/186569379-848ace82-240c-4614-baf0-e92e5cc88721.png)
 *Figure 12. Testing the script in Anaconda Prompt.*
 
-Then, in Anaconda Prompt, I entered 3+2, and the script correctly returned 5.0. I then checked to see if a .dat file had been written to the working directory, and found that this had also been successful (**Figure 13**).
+Then, in Anaconda Prompt, I entered 3+2, and the script correctly returned 5.0. I then checked to see if a .dat file had been written to the working directory, and found that this had also been successful, so I opened the file in Notepad and found that it had been properly serialized  (**Figure 13**).
 
-![image](https://user-images.githubusercontent.com/111031988/186569440-3ea88db7-ad15-4450-ac5f-696db2cb62be.png)
-*Figure 13. The ProcessedNumber.dat file in the working directory.*
+![image](https://user-images.githubusercontent.com/111031988/186570212-17797003-f899-4912-9f63-3f76e67ae6d2.png)
+*Figure 13. The ProcessedNumber.dat file open in Notepad.*
 
 With the script able to demonstrate error handling, pickling, and tested in an IDE and Anaconda Prompt, the assignment was complete.
 
