@@ -46,3 +46,38 @@ I then defined a **processing** class that completes the mathematical operation 
 
 ![image](https://user-images.githubusercontent.com/111031988/186568630-122defb8-a634-4669-940d-074cd00e0397.png)
 *Figure 5. The ZeroDivisionError exception is raised if the user attempts to divide by zero.*
+
+The processing class also contains an **operation** function, which calls the mathematical operation function that the user chose. This function also returns an error message if the user did not choose a mathematical operation when prompted (**Figure 6**).
+
+![image](https://user-images.githubusercontent.com/111031988/186568773-76203595-1602-4ac5-8d0a-967127e4a762.png)
+*Figure 6. The operation function calls the mathematical operation that the user chose, or returns an error message.*
+
+The processing class contains one final function that returns the processed number if the user entered two numbers and a mathematical operation correctly when prompted (**Figure 7**).
+
+![image](https://user-images.githubusercontent.com/111031988/186568832-ea6311d6-d8a9-4eba-bc5a-8073901f4d40.png)
+*Figure 7. The processed number is returned to the user.*
+
+I then added two **try/except** statements in order to retrieve the user input and to process the user input. The first of these returns a message if a **ValueError** exception is raised, if the user does not enter a number when prompted. The second of these returns a message if a **NameError** exception is raised, and gives a general statement that there was a problem with the user input (**Figure 8**).
+
+![image](https://user-images.githubusercontent.com/111031988/186568955-112849d1-6dd7-48a4-b640-28a0fe1b0b11.png)
+*Figure 8. Try/Except statements that return error messages if specific conditions are met.*
+
+With the research for exception handling completed and a script written that demonstrated this, I moved on to researching pickling.
+
+### Completing the Assignment: Researching Pickling
+
+The first resource I checked was geeksforgeeks.org. I learned that pickle is a module in Python that is used to serialize an object before it is written to a file (**Figure 9**).
+
+![image](https://user-images.githubusercontent.com/111031988/186569057-4507ddd5-839a-437d-ac4e-133e343593b6.png)
+*Figure 9. A description of Pickling from geeksforgeeks.org.*
+
+I thought that I understood Pickling from reading the geeksforgeeks.org article, so I did not research any additional websites on this topic. In order to demonstrate Pickling in my script, I would need to import the pickle module and then write an object to a file using the pickle module.
+
+### Completing the Assignment: Editing the Script
+
+In order to demonstrate pickling in my script, I first imported the pickle module using **import pickle**. I decided that I would edit the last **try/except** statement such that if the user input was successfully processed, this output would be written to a .dat file (**Figure 10**).
+
+![image](https://user-images.githubusercontent.com/111031988/186569186-1fa0b131-1748-41bb-a80a-92c9f8790e80.png)
+*Figure 10. The processed number is written to a .dat file using the pickle module.*
+
+With the script demonstrating both error handling and pickling, the script was completed, and it was time to begin testing the script in an IDE and Anaconda Prompt.
